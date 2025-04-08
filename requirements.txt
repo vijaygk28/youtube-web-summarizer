@@ -2,10 +2,10 @@ streamlit
 validators
 youtube-transcript-api
 
-# Exact working versions
-langchain==0.1.14
-langchain-community==0.0.30
-langchain-groq==0.2.5  # Use latest working version that exists
+# Langchain ecosystem (updated for compatibility)
+langchain==0.1.20
+langchain-community==0.0.40
+langchain-groq==0.2.6
 
-# Transformers for tokenizer support (for some langchain modules)
+# Transformers for LLM
 transformers==4.39.3
