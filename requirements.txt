@@ -2,10 +2,10 @@ streamlit
 validators
 youtube-transcript-api
 
-# LangChain and related
+# Exact working versions
 langchain==0.1.14
-langchain-community==0.0.26
-langchain-groq==0.0.2
+langchain-community==0.0.30
+langchain-groq==0.2.5  # Use latest working version that exists
 
-# Hugging Face tokenizer support
+# Transformers for tokenizer support (for some langchain modules)
 transformers==4.39.3
